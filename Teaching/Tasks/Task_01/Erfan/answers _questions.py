@@ -1,3 +1,9 @@
+import os 
+
+print(os.path)
+
+
+
 # Question 1
 
 # Ask the user their name and store it in a variable
