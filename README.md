@@ -3,5 +3,3 @@ Hi All, ![](https://user-images.githubusercontent.com/18350557/176309783-0785949
 # Enjoy Learning
 
 <img src="https://img2.juzaphoto.com/001/shared_files/uploads_hr/530128_large27865.jpg" alt="Photo">
-
-### Because I love to share what I know, in this repository I will try to share python scripts from 0 to advance scripts.
