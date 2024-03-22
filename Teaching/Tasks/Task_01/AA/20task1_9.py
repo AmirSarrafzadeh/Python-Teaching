@@ -249,8 +249,8 @@ reverse_sentence = ' '
 for i in range (len(sentence)):
     
     reverse_sentence += sentence[        \
-                                    len(         \
-                                    sentence)     \
+                                    len(                         \
+                                    sentence)                \
                                      -i - 1]
 
 print (reverse_sentence)
@@ -258,3 +258,456 @@ print (reverse_sentence)
 
 # To not clear the page
 x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_10 \n')
+
+  # Question_10
+
+str_order = ' '
+int_order = ' '
+
+order = ' Lkij0986jhjjhs76575bjh879jkms00902kj0099iiu87hjhhSSWe56672hjkm '
+
+for i in order:
+    
+    if i.isdigit():
+        
+        int_order += i
+        
+    else:
+        
+        str_order += i
+        
+print (f'\n str order : { str_order} \
+              \n int order : { int_order}')
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_11 \n')
+
+  # Question_11
+
+
+fibonacci = [0 ,1]
+
+while True:
+    
+    number = int ( input (' Type your fibonacci : '))
+    if len (str (number)) == 3 :
+        break 
+        
+    else:
+        print ('len ')
+
+
+
+while True :
+    
+    if fibonacci[ -1] +       \
+        fibonacci[ -2]           \
+        <= number:
+        
+        fibonacci.append(     
+            fibonacci[ -1] +        
+            fibonacci[ -2])
+        
+    else :
+      break 
+
+print (fibonacci)
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_12 \n')
+
+  # Question_12
+
+
+Sentence = input (' Type Sentence : ')
+
+print(' \n word : ' ,
+    len( 
+    Sentence.split( ) ) )
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_13 \n')
+
+  # Question_13
+
+
+my_dic = {}
+
+list_word = [ ' What is your name? ' 
+, ' What is your surname? '  
+, ' How old are you ? '  
+, ' Where are you from? ' 
+, ' What is your favorite movie? '  
+, ' What is your favorite color? '   
+]
+
+for i in range ( len( list_word)):
+    
+    word = input (list_word[ i])
+    my_dic.update( { list_word[ i] : word})
+
+print (my_dic)
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_14 \n')
+
+  # Question_14
+
+
+number = int( input (' Type your range : '))
+list_prime = [2, 1]
+
+for check  in range (1, number + 1):
+    prime = 0
+    
+    for i in range (2, check):
+        
+        if check % i == 0:
+            break 
+        
+        else:
+            prime = check
+        
+    if prime != 0 :
+        list_prime.insert(0, prime)
+        
+print('\n',list_prime)        
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+os.system( clear ) # To clear the page
+print('Question_15 \n')
+
+  # Question_15
+
+
+print ('The date should be written like this  (2024/3/10)\n')
+
+date1 = input('Enter the date 1 : ') #.split ('/') 
+date2 = input('Enter the date 2 : ')#. split ('/')
+
+for i in range (0 ,3):
+    
+    if date1.split( '/')[ i]  \
+    > date2.split( '/')[ i] :
+        
+        print (date2)
+        break
+
+    elif date1. split( '/')[ i]  \
+        < date2. split( '/')[ i]:
+        
+        print (date1)
+        break
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_16 \n')
+
+  # Question_16
+
+
+char = 'B5tkjnsds9890djhjhjdfhBBJGH77383K\
+K090eklksldshjh98797234kKkkJJKHFSJH9'
+
+word = ''
+
+for x in char:
+    
+    if ord(x) >= 65    \
+    and    \
+    ord(x) <= 90:
+        
+        word += '\033[31m'+x#+'\033[0m'
+        
+        
+    elif ord(x) >= 97    \
+    and    \
+    ord(x) <= 122:
+        
+        word += '\033[34m'+x#+'\033[0m'
+        
+    
+    elif ord(x) >= 48    \
+    and    \
+    ord(x) <= 57:
+        
+        word += '\033[32m'+x#+'\033[0m'
+        
+    
+    else :
+        print ('its character : ',x)
+
+print (word+'\033[30m')
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_17 \n')
+
+  # Question_17
+
+
+Fruits = {
+'Sib': 15000,
+'Anbe': 23000,
+'Moz': 12000,
+'Portagal': 20000
+}
+
+
+Sib = float( input (' Chand kilo Sib kharidid? '  ))
+Anbe = float( input(' Chand kilo Anbe Kharidid? '))
+Moz = float( input (' Chand kilo Moz Kharidid? '))
+Portagal = float( input (' Chand kilo Portagal Kharidid? '))
+
+
+print (f"\n  \
+Sib      : { Fruits[ 'Sib'] * Sib}   \n  \
+Anbe     : { Fruits[ 'Anbe'] * Anbe}  \n  \
+Moz      : { Fruits[ 'Moz'] * Moz}  \n  \
+Portagal : { Fruits[ 'Portagal'] * Portagal}  \n\n  \
+\
+Total purchase of fruits :  \n  {  ( Fruits[ 'Sib'] * Sib )  +  ( Fruits[ 'Anbe'] * Anbe )   +  ( Fruits[ 'Moz'] * Moz )  +  ( Fruits[ 'Portagal'] * Portagal )}  \
+")
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_18 \n')
+
+  # Question_18
+
+
+
+print ('''
+قوانین:
+
+حداقل باید یک عدد فرد و یک عدد زوج داشتھ باشد. 
+\n
+حداقل باید یک کاراکتر کوچک و یک کاراکتر بزرگ داشتھ باشد. 
+\n
+حداقل یکی از کاراکتر ھای زیر را داشتھ باشد. 
+@ # $ ! %
+\n
+دو عدد کاراکتر بزرگ پشت سر ھم نمی توانند باشند. 
+\n
+سھ عدد پشت سر ھم نمی توانند باشند. 
+
+''')
+my_true = True
+while my_true :
+    print ('————————————————————————————')
+    its_pass = 0
+    my_pass = input('Use pass : ')
+    
+    
+    
+#2 number even and odd
+    x = 0
+    for i in my_pass:
+        
+        if i.isdigit():
+            
+            if x == 0 and (int(i) % 2 == 0 or int(i) % 2 == 1) :
+                zoj = int(i) % 2
+                x += 1
+                
+            if zoj == 0 and int(i) %2 == 1:
+                
+                x += 1
+            elif zoj != 0 and int(i) %2 == 0:
+                 x += 1
+                 
+    if x >= 2:
+        its_pass += 1
+        
+    else:
+        print ('Error for not find number even and odd\n')
+
+
+
+#'find upp and min'
+    x = 0
+    g = 0
+    for i in my_pass:
+        
+        
+        if x == 0    \
+        and    \
+        ord(i) >= 97    \
+        and    \
+        ord(i) <= 122:
+            
+            x += 1
+            
+            
+        elif g == 0    \
+        and    \
+        ord(i) >= 65    \
+        and    \
+        ord(i) <= 90:
+            
+            g += 1
+            
+    if g+x >= 2:
+        its_pass += 1
+
+    else:
+        print ('Error for not find big and small letters \n')
+
+
+        
+#find @ ,# ,$ ,! ,%         
+    if  '@' in my_pass        \
+    or        \
+    '#' in my_pass        \
+    or        \
+    '$' in my_pass        \
+    or        \
+    ' !' in my_pass        \
+    or        \
+    '%' in my_pass :
+
+
+        its_pass += 1
+        
+    else:
+        print ('Error for not find (@ ,# ,$ ,! ,% ) \n')
+        
+
+#2 capital letters 
+    for i in my_pass:
+    
+        if (not i.isdigit())    \
+        and    \
+        i.upper() == i:
+            
+            x += 1
+                        
+            if x == 2 :
+                print ('There is more than one capital word in a row\n')
+        
+                break 
+        
+        else :
+            x = 0
+            
+    if x <= 1:
+        its_pass += 1
+    
+    
+#3 numbers consecutive
+    for i in my_pass:
+        
+        if i.isdigit():
+            x += 1
+            
+            if x == 3 :
+                print ('There are 3 numbers in a row\n ')
+                
+                break
+
+        
+        else :
+            x = 0
+            
+        if x < 3 :
+            its_pass += 1
+        
+#fine pass
+    if its_pass == 5:
+        print ('\n\n\n\n\n\n    its ok : ',my_pass)
+        break 
+        
+    
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_19 \n')
+
+  # Question_19
+
+
+word = input (' Type Sentence : ')
+
+dict = {}
+
+for i in word:
+    
+    if i in dict:
+        
+        dict[i] = dict.get(i)+1
+        
+    else:
+        dict.update({i:1})
+    
+print(dict)    
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
+
+os.system( clear ) # To clear the page
+print('Question_ 20\n')
+
+  # Question_20
+
+
+
+# To not clear the page
+x = input ('\n Next  ')  
+
+#———————————————————————————
