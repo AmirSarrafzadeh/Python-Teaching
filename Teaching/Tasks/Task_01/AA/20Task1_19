@@ -600,7 +600,7 @@ while my_true :
         its_pass += 1
 
     else:
-        print ('Error for not find big and small letters \n')
+        print (' Error for not find big and small letters \n')
 
 
         
@@ -619,7 +619,7 @@ while my_true :
         its_pass += 1
         
     else:
-        print ('Error for not find (@ ,# ,$ ,! ,% ) \n')
+        print (' Error for not find (@ ,# ,$ ,! ,% ) \n')
         
 
 #2 capital letters 
@@ -632,11 +632,10 @@ while my_true :
             x += 1
                         
             if x == 2 :
-                print ('There is more than one capital word in a row\n')
-        
+                print ( 'There is more than one capital word in a row\n')
                 break 
         
-        else :
+        else:
             x = 0
             
     if x <= 1:
@@ -650,8 +649,7 @@ while my_true :
             x += 1
             
             if x == 3 :
-                print ('There are 3 numbers in a row\n ')
-                
+                print (' There are 3 numbers in a row\n ')
                 break
 
         
@@ -661,9 +659,9 @@ while my_true :
         if x < 3 :
             its_pass += 1
         
-#fine pass
+#find pass
     if its_pass == 5:
-        print ('\n\n\n\n\n\n    its ok : ',my_pass)
+        print ('\n\n\n\n\n\n    its ok : ', my_pass)
         break 
         
     
