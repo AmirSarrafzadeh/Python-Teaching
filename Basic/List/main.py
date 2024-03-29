@@ -43,9 +43,6 @@ print(myList.count("Toyota"))
 # Find the index of an element in the list
 print(myList.index("BMW"))
 
-# Sort the list
-myList.sort()
-
 
 
 
