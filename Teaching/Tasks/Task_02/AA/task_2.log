@@ -1,0 +1,80 @@
+2024-04-27 01:56:37,949 - root - INFO - # run task_2_git
+-----------------------------------------------------------
+2024-04-27 01:56:37,954 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 01:56:39,218 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 01:56:39,327 - root - INFO -  internet connect
+2024-04-27 01:56:39,328 - root - DEBUG -  not found json file
+2024-04-27 01:56:39,328 - root - DEBUG -  Start 
+2024-04-27 01:56:39,330 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 01:56:40,232 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 01:56:40,382 - root - DEBUG -  take text html code in website
+2024-04-27 01:56:40,385 - root - DEBUG -  filter td tag in html
+2024-04-27 01:56:40,386 - root - DEBUG -  filter json in td tag
+2024-04-27 01:56:40,392 - root - DEBUG -  write in json file and read json
+2024-04-27 01:56:40,392 - root - DEBUG -  json file created
+2024-04-27 01:56:40,392 - root - INFO - finde  user id 
+2024-04-27 01:56:40,393 - root - INFO -  finde emailverified
+2024-04-27 01:56:40,393 - root - INFO -  finde last ip
+2024-04-27 01:56:40,393 - root - INFO -  finde last login
+2024-04-27 01:56:40,393 - root - INFO - finde  user id 
+2024-04-27 01:56:40,393 - root - INFO -  finde emailverified
+2024-04-27 01:56:40,393 - root - INFO -  finde last ip
+2024-04-27 01:56:40,393 - root - INFO -  finde last login
+2024-04-27 01:56:40,393 - root - INFO - finde  user id 
+2024-04-27 01:56:40,393 - root - INFO -  finde emailverified
+2024-04-27 01:56:40,393 - root - INFO -  finde last ip
+2024-04-27 01:56:40,393 - root - INFO -  finde last login
+2024-04-27 01:56:40,393 - root - INFO - finde  user id 
+2024-04-27 01:56:40,393 - root - INFO -  finde emailverified
+2024-04-27 01:56:40,393 - root - INFO -  finde last ip
+2024-04-27 01:56:40,393 - root - INFO -  finde last login
+2024-04-27 01:56:40,393 - root - INFO - finde  user id 
+2024-04-27 01:56:40,393 - root - INFO -  finde emailverified
+2024-04-27 01:56:40,393 - root - INFO -  finde last ip
+2024-04-27 01:56:40,393 - root - INFO -  finde last login
+2024-04-27 01:59:06,396 - root - INFO - # run task_2_git
+-----------------------------------------------------------
+2024-04-27 01:59:06,410 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 01:59:07,487 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 01:59:07,557 - root - INFO -  internet connect
+2024-04-27 01:59:07,558 - root - DEBUG -  not found json file
+2024-04-27 01:59:07,558 - root - DEBUG -  Start 
+2024-04-27 01:59:07,562 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 01:59:08,341 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 01:59:08,483 - root - DEBUG -  take text html code in website
+2024-04-27 02:01:16,467 - root - WARNING -  eror cant write json file
+2024-04-27 02:01:16,468 - root - DEBUG -  json file created
+2024-04-27 02:01:17,675 - root - INFO - # run task_2_git
+-----------------------------------------------------------
+2024-04-27 02:01:17,679 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 02:01:18,789 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 02:01:18,877 - root - INFO -  internet connect
+2024-04-27 02:01:18,877 - root - DEBUG -  not found json file
+2024-04-27 02:01:18,878 - root - DEBUG -  Start 
+2024-04-27 02:01:18,882 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): gist.github.com:443
+2024-04-27 02:01:19,664 - urllib3.connectionpool - DEBUG - https://gist.github.com:443 "GET /saltukalakus/124bba04327d8e5eab605d4fb66c53b8 HTTP/1.1" 200 None
+2024-04-27 02:01:19,803 - root - DEBUG -  take text html code in website
+2024-04-27 02:01:19,805 - root - DEBUG -  filter td tag in html
+2024-04-27 02:01:19,806 - root - DEBUG -  filter json in td tag
+2024-04-27 02:01:19,813 - root - DEBUG -  write in json file and read json
+2024-04-27 02:01:19,813 - root - DEBUG -  json file created
+2024-04-27 02:01:19,813 - root - INFO - finde  user id 
+2024-04-27 02:01:19,813 - root - INFO -  finde emailverified
+2024-04-27 02:01:19,813 - root - INFO -  finde last ip
+2024-04-27 02:01:19,813 - root - INFO -  finde last login
+2024-04-27 02:01:19,813 - root - INFO - finde  user id 
+2024-04-27 02:01:19,813 - root - INFO -  finde emailverified
+2024-04-27 02:01:19,814 - root - INFO -  finde last ip
+2024-04-27 02:01:19,814 - root - INFO -  finde last login
+2024-04-27 02:01:19,814 - root - INFO - finde  user id 
+2024-04-27 02:01:19,814 - root - INFO -  finde emailverified
+2024-04-27 02:01:19,814 - root - INFO -  finde last ip
+2024-04-27 02:01:19,814 - root - INFO -  finde last login
+2024-04-27 02:01:19,814 - root - INFO - finde  user id 
+2024-04-27 02:01:19,814 - root - INFO -  finde emailverified
+2024-04-27 02:01:19,814 - root - INFO -  finde last ip
+2024-04-27 02:01:19,814 - root - INFO -  finde last login
+2024-04-27 02:01:19,814 - root - INFO - finde  user id 
+2024-04-27 02:01:19,814 - root - INFO -  finde emailverified
+2024-04-27 02:01:19,814 - root - INFO -  finde last ip
+2024-04-27 02:01:19,814 - root - INFO -  finde last login

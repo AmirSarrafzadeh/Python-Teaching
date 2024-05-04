@@ -47,6 +47,9 @@ def def_json(link):
         logging.debug(' take text html code in website')
 
             # Extract json in td
+        # TODO import json
+        # TODO soup = bs.find('table').text.strip()
+        # TODO data = json.loads(soup)
         td_tag_json = bs.find_all('td' , class_="blob-code blob-code-inner js-file-line")
         logging.debug(' filter td tag in html')
 
