@@ -17,6 +17,7 @@ def even(number: int) -> bool:
 
 # -------------------------------------------
 # question 3
+# TODO: fix the function logic
 def triangle(a: float, b: float, c: float) -> bool:
     if a > 0 or b > 0 or c > 0:
         if a + b > c:
@@ -30,6 +31,7 @@ def triangle(a: float, b: float, c: float) -> bool:
 
 
 # question 4
+# TODO: fix the function
 def factorial(number: int) -> any:
     Factorial = 1
     while True:
@@ -39,12 +41,13 @@ def factorial(number: int) -> any:
         else:
             for Num in range(1, number + 1):
                 Factorial *= Num
-            else:
+            else: # this else is not necessary !!!
                 return Factorial
 
 
 # -------------------------------------------
 # question 5
+# TODO: You can write in a very simple way
 def descending(*numbers) -> list[int] :
     main_list = []
     if type(numbers) != list :
@@ -83,6 +86,7 @@ def diffrence(*numbers: float):
 
 # -------------------------------------------
 # question 8
+# TODO: fix the function, 1 is not a prime number
 def prime_numbers(number:int)-> list: 
     out = list()
     for x in range(1, number+1):
@@ -92,15 +96,16 @@ def prime_numbers(number:int)-> list:
 
 # -------------------------------------------
 # question 9
+# TODO: fix the function, it should reverse each word in the sentence
 def revers(sentense: str) -> str:
     mylist = sentense.split(' ')
     mylist.reverse()
     answer = ' '.join(mylist)
     return answer
 
-
 # -------------------------------------------
 # question 10
+# TODO: fix the function, it should not return the sum of the numbers it must return the list numbers and alphabets
 def number_or_alphabet(sentense: str) -> dict:
     My_dictionary = {}
     number = 0
@@ -135,7 +140,6 @@ def fibo(number: int) -> tuple:
         else:
             break
     return (tuple(mylist))
-
 
 # -------------------------------------------
 # question 12
